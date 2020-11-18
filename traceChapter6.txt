@@ -1,0 +1,69 @@
+========= Scheduling for device: XilinxVirtexUltrascale9P =========
+Application__t0: Execi 287 t:200 l:287 (vl:287) params:
+Application__t0: Write 4,Application__comm_0_1 t:487 l:1 (vl:4) params: Ch: Application__comm_0_1
+Application__t0: Write 4,Application__comm_0_2 t:488 l:1 (vl:4) params: Ch: Application__comm_0_2
+Application__t1: Read 4,Application__comm_0_1 t:489 l:1 (vl:4) params: Ch: Application__comm_0_1
+Application__t0: Write 4,Application__comm_0_3 t:490 l:1 (vl:4) params: Ch: Application__comm_0_3
+Application__t1: Execi 139 t:490 l:139 (vl:139) params:
+Application__t0: Write 4,Application__comm_0_4 t:491 l:1 (vl:4) params: Ch: Application__comm_0_4
+Application__t4: Read 4,Application__comm_0_4 t:492 l:1 (vl:4) params: Ch: Application__comm_0_4
+Application__t4: Execi 200 t:493 l:200 (vl:200) params:
+Application__t1: Write 4,Application__comm_1_6 t:629 l:1 (vl:4) params: Ch: Application__comm_1_6
+Application__t4: Write 4,Application__comm_4_5 t:693 l:1 (vl:4) params: Ch: Application__comm_4_5
+Application__t2: Read 4,Application__comm_0_2 t:895 l:1 (vl:4) params: Ch: Application__comm_0_2
+Application__t3: Read 4,Application__comm_0_3 t:896 l:1 (vl:4) params: Ch: Application__comm_0_3
+Application__t6: Read 4,Application__comm_1_6 t:897 l:1 (vl:4) params: Ch: Application__comm_1_6
+Application__t5: Read 4,Application__comm_4_5 t:898 l:1 (vl:4) params: Ch: Application__comm_4_5
+Application__t2: Execi 209 t:896 l:209 (vl:209) params:
+Application__t3: Execi 460 t:897 l:460 (vl:460) params:
+Application__t5: Execi 314 t:899 l:314 (vl:314) params:
+Application__t2: Write 4,Application__comm_2_6 t:1105 l:1 (vl:4) params: Ch: Application__comm_2_6
+Application__t6: Read 4,Application__comm_2_6 t:1106 l:1 (vl:4) params: Ch: Application__comm_2_6
+Application__t5: Write 4,Application__comm_5_6 t:1213 l:1 (vl:4) params: Ch: Application__comm_5_6
+Application__t6: Read 4,Application__comm_5_6 t:1214 l:1 (vl:4) params: Ch: Application__comm_5_6
+Application__t6: Execi 199 t:1215 l:199 (vl:199) params:
+Application__t3: Write 4,Application__comm_3_10 t:1357 l:1 (vl:4) params: Ch: Application__comm_3_10
+Application__t6: Write 4,Application__comm_6_7 t:1414 l:1 (vl:4) params: Ch: Application__comm_6_7
+Application__t6: Write 4,Application__comm_6_8 t:1415 l:1 (vl:4) params: Ch: Application__comm_6_8
+Application__t7: Read 4,Application__comm_6_7 t:1817 l:1 (vl:4) params: Ch: Application__comm_6_7
+Application__t8: Read 4,Application__comm_6_8 t:1818 l:1 (vl:4) params: Ch: Application__comm_6_8
+Application__t7: Execi 303 t:1818 l:303 (vl:303) params:
+Application__t8: Execi 35 t:1819 l:35 (vl:35) params:
+Application__t8: Write 4,Application__comm_8_9 t:1854 l:1 (vl:4) params: Ch: Application__comm_8_9
+Application__t9: Read 4,Application__comm_8_9 t:2521 l:1 (vl:4) params: Ch: Application__comm_8_9
+Application__t7: Write 4,Application__comm_7_10 t:2121 l:1 (vl:4) params: Ch: Application__comm_7_10
+Application__t9: Execi 49 t:2522 l:49 (vl:49) params:
+Application__t9: Write 4,Application__comm_9_10 t:2571 l:1 (vl:4) params: Ch: Application__comm_9_10
+Application__t10: Read 4,Application__comm_3_10 t:3173 l:1 (vl:4) params: Ch: Application__comm_3_10
+Application__t10: Read 4,Application__comm_7_10 t:3174 l:1 (vl:4) params: Ch: Application__comm_7_10
+Application__t10: Read 4,Application__comm_9_10 t:3175 l:1 (vl:4) params: Ch: Application__comm_9_10
+Application__t10: Execi 114 t:3176 l:114 (vl:114) params:
+========= Scheduling for device: defaultBus_0 =========
+Application__t0: Write 4,Application__comm_0_1 t:487 l:1 (vl:4) params: Ch: Application__comm_0_1
+Application__t0: Write 4,Application__comm_0_2 t:488 l:1 (vl:4) params: Ch: Application__comm_0_2
+Application__t1: Read 4,Application__comm_0_1 t:489 l:1 (vl:4) params: Ch: Application__comm_0_1
+Application__t0: Write 4,Application__comm_0_3 t:490 l:1 (vl:4) params: Ch: Application__comm_0_3
+Application__t0: Write 4,Application__comm_0_4 t:491 l:1 (vl:4) params: Ch: Application__comm_0_4
+Application__t4: Read 4,Application__comm_0_4 t:492 l:1 (vl:4) params: Ch: Application__comm_0_4
+Application__t1: Write 4,Application__comm_1_6 t:629 l:1 (vl:4) params: Ch: Application__comm_1_6
+Application__t4: Write 4,Application__comm_4_5 t:693 l:1 (vl:4) params: Ch: Application__comm_4_5
+Application__t2: Read 4,Application__comm_0_2 t:895 l:1 (vl:4) params: Ch: Application__comm_0_2
+Application__t3: Read 4,Application__comm_0_3 t:896 l:1 (vl:4) params: Ch: Application__comm_0_3
+Application__t6: Read 4,Application__comm_1_6 t:897 l:1 (vl:4) params: Ch: Application__comm_1_6
+Application__t5: Read 4,Application__comm_4_5 t:898 l:1 (vl:4) params: Ch: Application__comm_4_5
+Application__t2: Write 4,Application__comm_2_6 t:1105 l:1 (vl:4) params: Ch: Application__comm_2_6
+Application__t6: Read 4,Application__comm_2_6 t:1106 l:1 (vl:4) params: Ch: Application__comm_2_6
+Application__t5: Write 4,Application__comm_5_6 t:1213 l:1 (vl:4) params: Ch: Application__comm_5_6
+Application__t6: Read 4,Application__comm_5_6 t:1214 l:1 (vl:4) params: Ch: Application__comm_5_6
+Application__t3: Write 4,Application__comm_3_10 t:1357 l:1 (vl:4) params: Ch: Application__comm_3_10
+Application__t6: Write 4,Application__comm_6_7 t:1414 l:1 (vl:4) params: Ch: Application__comm_6_7
+Application__t6: Write 4,Application__comm_6_8 t:1415 l:1 (vl:4) params: Ch: Application__comm_6_8
+Application__t7: Read 4,Application__comm_6_7 t:1817 l:1 (vl:4) params: Ch: Application__comm_6_7
+Application__t8: Read 4,Application__comm_6_8 t:1818 l:1 (vl:4) params: Ch: Application__comm_6_8
+Application__t8: Write 4,Application__comm_8_9 t:1854 l:1 (vl:4) params: Ch: Application__comm_8_9
+Application__t9: Read 4,Application__comm_8_9 t:2521 l:1 (vl:4) params: Ch: Application__comm_8_9
+Application__t7: Write 4,Application__comm_7_10 t:2121 l:1 (vl:4) params: Ch: Application__comm_7_10
+Application__t9: Write 4,Application__comm_9_10 t:2571 l:1 (vl:4) params: Ch: Application__comm_9_10
+Application__t10: Read 4,Application__comm_3_10 t:3173 l:1 (vl:4) params: Ch: Application__comm_3_10
+Application__t10: Read 4,Application__comm_7_10 t:3174 l:1 (vl:4) params: Ch: Application__comm_7_10
+Application__t10: Read 4,Application__comm_9_10 t:3175 l:1 (vl:4) params: Ch: Application__comm_9_10

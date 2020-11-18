@@ -1,0 +1,647 @@
+$date
+Wed Nov 18 18:16:56 2020
+$end
+
+$version
+Daniel's TML simulator
+$end
+
+$timescale
+5 ns
+$end
+
+$scope module Simulation $end
+$var wire 1 fpga1_Application__t0 XilinxVirtexUltrascale9P_Application__t0 $end
+$var wire 1 fpga1_Application__t4 XilinxVirtexUltrascale9P_Application__t4 $end
+$var wire 1 fpga1_Application__t2 XilinxVirtexUltrascale9P_Application__t2 $end
+$var wire 1 fpga1_Application__t6 XilinxVirtexUltrascale9P_Application__t6 $end
+$var wire 1 fpga1_Application__t3 XilinxVirtexUltrascale9P_Application__t3 $end
+$var wire 1 fpga1_Application__t5 XilinxVirtexUltrascale9P_Application__t5 $end
+$var wire 1 fpga1_Application__t7 XilinxVirtexUltrascale9P_Application__t7 $end
+$var wire 1 fpga1_Application__t8 XilinxVirtexUltrascale9P_Application__t8 $end
+$var wire 1 fpga1_Application__t9 XilinxVirtexUltrascale9P_Application__t9 $end
+$var wire 1 fpga1_Application__t10 XilinxVirtexUltrascale9P_Application__t10 $end
+$var wire 1 fpga1_Application__t1 XilinxVirtexUltrascale9P_Application__t1 $end
+$var wire 1 busdefaultBus_0 defaultBus_0 $end
+$var wire 1 ta2 Application__t0 $end
+$var wire 1 ta4 Application__t4 $end
+$var wire 1 ta6 Application__t2 $end
+$var wire 1 ta8 Application__t6 $end
+$var wire 1 ta10 Application__t3 $end
+$var wire 1 ta12 Application__t5 $end
+$var wire 1 ta14 Application__t7 $end
+$var wire 1 ta16 Application__t8 $end
+$var wire 1 ta18 Application__t9 $end
+$var wire 1 ta20 Application__t10 $end
+$var wire 1 ta22 Application__t1 $end
+$var integer 32 clk Clock $end
+$upscope $end
+$enddefinitions  $end
+
+#0
+b0 clk
+0fpga1_Application__t0
+0fpga1_Application__t2
+0fpga1_Application__t7
+b00 ta6
+b00 ta22
+b00 ta4
+0fpga1_Application__t5
+b01 ta2
+0busdefaultBus_0
+0fpga1_Application__t4
+0fpga1_Application__t3
+0fpga1_Application__t1
+b00 ta20
+0fpga1_Application__t10
+b00 ta18
+b00 ta16
+0fpga1_Application__t6
+0fpga1_Application__t9
+b00 ta14
+b00 ta12
+0fpga1_Application__t8
+b00 ta10
+b00 ta8
+#20
+r20 clk
+#40
+r40 clk
+#60
+r60 clk
+#80
+r80 clk
+#100
+r100 clk
+#120
+r120 clk
+#140
+r140 clk
+#160
+r160 clk
+#180
+r180 clk
+#200
+b11001000 clk
+1fpga1_Application__t0
+b10 ta2
+#220
+r220 clk
+#240
+r240 clk
+#260
+r260 clk
+#280
+r280 clk
+#300
+r300 clk
+#320
+r320 clk
+#340
+r340 clk
+#360
+r360 clk
+#380
+r380 clk
+#400
+r400 clk
+#420
+r420 clk
+#440
+r440 clk
+#460
+r460 clk
+#480
+r480 clk
+#487
+1busdefaultBus_0
+#488
+b01 ta22
+#489
+b01 ta6
+1busdefaultBus_0
+b10 ta22
+1fpga1_Application__t1
+0fpga1_Application__t0
+#487
+1fpga1_Application__t0
+#489
+b01 ta2
+0fpga1_Application__t0
+#488
+1fpga1_Application__t0
+#489
+0fpga1_Application__t0
+#490
+1busdefaultBus_0
+b10 ta2
+1fpga1_Application__t0
+#491
+b01 ta10
+#492
+b10 ta4
+0fpga1_Application__t0
+#491
+1fpga1_Application__t0
+#492
+1fpga1_Application__t4
+1busdefaultBus_0
+b00 ta2
+0fpga1_Application__t0
+#493
+0busdefaultBus_0
+#500
+r500 clk
+#520
+r520 clk
+#540
+r540 clk
+#560
+r560 clk
+#580
+r580 clk
+#600
+r600 clk
+#620
+r620 clk
+#629
+1busdefaultBus_0
+#630
+b00 ta22
+b01 ta8
+0fpga1_Application__t1
+#490
+1fpga1_Application__t1
+#630
+0busdefaultBus_0
+0fpga1_Application__t1
+#629
+1fpga1_Application__t1
+#630
+0fpga1_Application__t1
+#640
+r640 clk
+#660
+r660 clk
+#680
+r680 clk
+#693
+1busdefaultBus_0
+#694
+b00 ta4
+0fpga1_Application__t4
+#493
+1fpga1_Application__t4
+#694
+b01 ta12
+0busdefaultBus_0
+0fpga1_Application__t4
+#693
+1fpga1_Application__t4
+#694
+0fpga1_Application__t4
+#700
+r700 clk
+#720
+r720 clk
+#740
+r740 clk
+#760
+r760 clk
+#780
+r780 clk
+#800
+r800 clk
+#820
+r820 clk
+#840
+r840 clk
+#860
+r860 clk
+#880
+r880 clk
+#895
+b10 ta6
+1fpga1_Application__t2
+1busdefaultBus_0
+#896
+b10 ta10
+1fpga1_Application__t3
+#897
+1fpga1_Application__t6
+b10 ta8
+#898
+1fpga1_Application__t5
+b10 ta12
+0fpga1_Application__t6
+b00 ta8
+#899
+0busdefaultBus_0
+#900
+r900 clk
+#920
+r920 clk
+#940
+r940 clk
+#960
+r960 clk
+#980
+r980 clk
+#1000
+r1000 clk
+#1020
+r1020 clk
+#1040
+r1040 clk
+#1060
+r1060 clk
+#1080
+r1080 clk
+#1100
+r1100 clk
+#1105
+1busdefaultBus_0
+#1106
+b00 ta6
+0fpga1_Application__t2
+#896
+1fpga1_Application__t2
+#1106
+1fpga1_Application__t6
+b10 ta8
+1busdefaultBus_0
+0fpga1_Application__t2
+#1105
+1fpga1_Application__t2
+#1106
+0fpga1_Application__t2
+#1107
+0fpga1_Application__t6
+b00 ta8
+0busdefaultBus_0
+#1120
+r1120 clk
+#1140
+r1140 clk
+#1160
+r1160 clk
+#1180
+r1180 clk
+#1200
+r1200 clk
+#1213
+1busdefaultBus_0
+#1214
+0fpga1_Application__t5
+#899
+1fpga1_Application__t5
+#1214
+1fpga1_Application__t6
+b10 ta8
+1busdefaultBus_0
+0fpga1_Application__t5
+#1213
+1fpga1_Application__t5
+#1214
+b00 ta12
+0fpga1_Application__t5
+#1215
+0busdefaultBus_0
+#1220
+r1220 clk
+#1240
+r1240 clk
+#1260
+r1260 clk
+#1280
+r1280 clk
+#1300
+r1300 clk
+#1320
+r1320 clk
+#1340
+r1340 clk
+#1357
+1busdefaultBus_0
+#1358
+b01 ta20
+0fpga1_Application__t3
+#897
+1fpga1_Application__t3
+#1358
+0busdefaultBus_0
+0fpga1_Application__t3
+#1357
+1fpga1_Application__t3
+#1358
+b00 ta10
+0fpga1_Application__t3
+#1360
+r1360 clk
+#1380
+r1380 clk
+#1400
+r1400 clk
+#1414
+1busdefaultBus_0
+#1415
+b01 ta14
+#1416
+b01 ta16
+0fpga1_Application__t6
+#1215
+1fpga1_Application__t6
+#1416
+b00 ta8
+0busdefaultBus_0
+0fpga1_Application__t6
+#1414
+1fpga1_Application__t6
+#1416
+0fpga1_Application__t6
+#1415
+1fpga1_Application__t6
+#1416
+0fpga1_Application__t6
+#1420
+r1420 clk
+#1440
+r1440 clk
+#1460
+r1460 clk
+#1480
+r1480 clk
+#1500
+r1500 clk
+#1520
+r1520 clk
+#1540
+r1540 clk
+#1560
+r1560 clk
+#1580
+r1580 clk
+#1600
+r1600 clk
+#1620
+r1620 clk
+#1640
+r1640 clk
+#1660
+r1660 clk
+#1680
+r1680 clk
+#1700
+r1700 clk
+#1720
+r1720 clk
+#1740
+r1740 clk
+#1760
+r1760 clk
+#1780
+r1780 clk
+#1800
+r1800 clk
+#1817
+b10 ta14
+1busdefaultBus_0
+1fpga1_Application__t7
+#1818
+1fpga1_Application__t8
+b10 ta16
+#1819
+0busdefaultBus_0
+#1820
+r1820 clk
+#1840
+r1840 clk
+#1854
+1busdefaultBus_0
+#1855
+b01 ta18
+0fpga1_Application__t8
+#1819
+1fpga1_Application__t8
+#1855
+b00 ta16
+0busdefaultBus_0
+0fpga1_Application__t8
+#1854
+1fpga1_Application__t8
+#1855
+0fpga1_Application__t8
+#1860
+r1860 clk
+#1880
+r1880 clk
+#1900
+r1900 clk
+#1920
+r1920 clk
+#1940
+r1940 clk
+#1960
+r1960 clk
+#1980
+r1980 clk
+#2000
+r2000 clk
+#2020
+r2020 clk
+#2040
+r2040 clk
+#2060
+r2060 clk
+#2080
+r2080 clk
+#2100
+r2100 clk
+#2120
+r2120 clk
+#2122
+0fpga1_Application__t7
+#1818
+1fpga1_Application__t7
+#2122
+b00 ta14
+0fpga1_Application__t7
+#2121
+1fpga1_Application__t7
+#2122
+0fpga1_Application__t7
+#2140
+r2140 clk
+#2160
+r2160 clk
+#2180
+r2180 clk
+#2200
+r2200 clk
+#2220
+r2220 clk
+#2240
+r2240 clk
+#2260
+r2260 clk
+#2280
+r2280 clk
+#2300
+r2300 clk
+#2320
+r2320 clk
+#2340
+r2340 clk
+#2360
+r2360 clk
+#2380
+r2380 clk
+#2400
+r2400 clk
+#2420
+r2420 clk
+#2440
+r2440 clk
+#2460
+r2460 clk
+#2480
+r2480 clk
+#2500
+r2500 clk
+#2520
+r2520 clk
+#2521
+1busdefaultBus_0
+b10 ta18
+1fpga1_Application__t9
+#2522
+0busdefaultBus_0
+#2121
+1busdefaultBus_0
+#2122
+0busdefaultBus_0
+#2540
+r2540 clk
+#2560
+r2560 clk
+#2571
+1busdefaultBus_0
+#2572
+b00 ta18
+0fpga1_Application__t9
+#2522
+1fpga1_Application__t9
+#2572
+0busdefaultBus_0
+0fpga1_Application__t9
+#2571
+1fpga1_Application__t9
+#2572
+0fpga1_Application__t9
+#2580
+r2580 clk
+#2600
+r2600 clk
+#2620
+r2620 clk
+#2640
+r2640 clk
+#2660
+r2660 clk
+#2680
+r2680 clk
+#2700
+r2700 clk
+#2720
+r2720 clk
+#2740
+r2740 clk
+#2760
+r2760 clk
+#2780
+r2780 clk
+#2800
+r2800 clk
+#2820
+r2820 clk
+#2840
+r2840 clk
+#2860
+r2860 clk
+#2880
+r2880 clk
+#2900
+r2900 clk
+#2920
+r2920 clk
+#2940
+r2940 clk
+#2960
+r2960 clk
+#2980
+r2980 clk
+#3000
+r3000 clk
+#3020
+r3020 clk
+#3040
+r3040 clk
+#3060
+r3060 clk
+#3080
+r3080 clk
+#3100
+r3100 clk
+#3120
+r3120 clk
+#3140
+r3140 clk
+#3160
+r3160 clk
+#3173
+1fpga1_Application__t10
+1busdefaultBus_0
+b10 ta20
+#3176
+0busdefaultBus_0
+#3180
+r3180 clk
+#3200
+r3200 clk
+#3220
+r3220 clk
+#3240
+r3240 clk
+#3260
+r3260 clk
+#3280
+r3280 clk
+#3290
+0fpga1_Application__t10
+#3174
+1fpga1_Application__t10
+#3290
+b00 ta20
+0fpga1_Application__t10
+#3175
+1fpga1_Application__t10
+#3290
+0fpga1_Application__t10
+#3176
+1fpga1_Application__t10
+#3290
+0fpga1_Application__t10
+#3291
+0fpga1
+0busdefaultBus_0
+0ta2
+0ta4
+0ta6
+0ta8
+0ta10
+0ta12
+0ta14
+0ta16
+0ta18
+0ta20
+0ta22
